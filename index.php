@@ -14,8 +14,7 @@
             <option value="1">Opcion1</option>
             <option value="2">Opcion2</option>
         </select>
-        <button type="submit" class="btn">Enviar</button>
-
+        <br><br>
         <table border="1">
             <thead>
                 <th>Documentos</th>
@@ -39,7 +38,7 @@
 
                 $inicio = 1;
 
-                while ($inicio <= 10) {//generando mas filas 10 mas
+                while ($inicio <= 10) { //generando mas filas 10 mas
                     $inicio++;
 
                 ?>
@@ -58,7 +57,8 @@
             </tbody>
 
         </table>
-
+        <br>
+        <button type="submit" class="shadow__btn">Enviar</button>
     </form>
 </body>
 
