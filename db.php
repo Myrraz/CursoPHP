@@ -5,7 +5,8 @@
      * usuario = root
      * pasword = null
      * nombre base de datos = clase3
-     */
+     */ 
+    
 
-     var_dump($conexion)//
+     var_dump($conexion)//muestra el valor(verificar la coneccion)
 ?>
